@@ -8,7 +8,7 @@
 # Site settings
 title: 고윤성 코딩
 email: yunseonggo429@gmail.com
-description:  개발정리하는곳..
+description:  개발정리하는곳...
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "kpyoonsung.github.io" # the base hostname & protocol for your site
