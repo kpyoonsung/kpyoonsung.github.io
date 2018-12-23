@@ -41,7 +41,7 @@ JAVA Lecture01
 
 	}
 JAVA Lecture02
-
+~~~
 package lecture_2018_12_23;
 
 public class Lecture02 {
@@ -62,7 +62,9 @@ public class Lecture02 {
 
 	}
 
-}JAVA Lecture03
+}
+~~~
+JAVA Lecture03
 
 package lecture_2018_12_23;
 
@@ -93,7 +95,7 @@ public class Lecture03 {
 }
 
 JAVA Lecture04
-
+~~~
 package lecture_2018_12_23;
 
 public class Lecture04 {
