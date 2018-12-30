@@ -1,0 +1,16 @@
+변수 선언 연습
+~~~
+//정수를 담는 변수 , count선언
+//실수를 담는 변수, average선언
+// 두 수를 출력하시오
+
+
+//정수를 담는 변수 , count선언
+//실수를 담는 변수, average선언
+// 두 수를 출력하시오
+
+int count = 100;
+double average = 3.11;
+System.out.println(count);
+System.out.println(average);
+~~~
