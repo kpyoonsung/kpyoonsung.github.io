@@ -1,0 +1,18 @@
+for문 실습
+~~~
+/*
+ * /조건식 수의 결과가 false라면 for문을 빠져나간다 for(초기화식); 조건식; 중간식){ //조건식 수행 결과가 true라면
+ * 실행문을 수행합니다 실행문1; 실행문2; }
+ */
+/*
+ * for(int i = 1; i<=10; i++) { //if 문을 추가해, 1과 3의 배수일때만 실행문을 수행합니다. if(i % 3
+ * ==0) System.out.println(i); } for문을 사용해서 1부터 10까지 출력하시오
+ */
+//2의 배수를 출력하는 경우
+for (int i = 1; i <= 10; i++) {
+  if (i % 2 == 0)
+    System.out.println(i);
+    for (int i = 1; i <= 9; i++) {
+			      for(int j = 2; j <=9; j++)
+					System.out.println(i+" * "+j);
+~~~
