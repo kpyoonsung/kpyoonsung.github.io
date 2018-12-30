@@ -1,0 +1,6 @@
+if문 실습
+~~~
+int  value = 9;
+if(value % 3 == 0) {
+	System.out.println("value는 3의 배수입니다.");
+~~~
