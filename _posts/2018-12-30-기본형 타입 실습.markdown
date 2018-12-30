@@ -1,0 +1,22 @@
+기본형 타입 실습
+~~~
+
+/*
+ * boolean isFun = true;
+ * char c = 'f'; int x = 59;
+ * // long 타입 값에는 소문자 l이나 대문자L을붙여야 합니다.
+ * long big = 3456789L;
+ * //float 타입 값에는 소문자 f나 대문자 F를 붙여야 합니다
+ * flaot f =32.5f;
+ * double d = 23.34;
+ */
+boolean isFun = false;
+char charvalue = 'a';
+int intvalue = 20;
+long longvalue=39248737L;
+System.out.println(isFun);
+System.out.println(charvalue);
+System.out.println(intvalue);
+System.out.println(longvalue);
+
+~~~
