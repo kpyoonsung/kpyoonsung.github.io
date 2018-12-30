@@ -1,8 +1,12 @@
-JAVA 주성분연습
+JAVA 주석문연습
+
+~~~
 /*
 이 부분을 주석처리 해서 프로그램이 정상적으로 실행되도록 만들어 보세요
 */
-//주성문 실습
+
+
+//주석문연습
 
 System.out.println("HelloWorld");
 //한 줄만 주석 처리합니다
@@ -14,3 +18,4 @@ System.out.println("HelloWorld");
  System.out.println("3");
 
  */
+~~~
