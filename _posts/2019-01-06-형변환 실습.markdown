@@ -1,0 +1,9 @@
+형변환 실습
+~~~
+/*
+double d = 53.4; // 실수형 변수 d 선언
+int score = (int) d; // int형 변수 score에 실수형 변수 d를 형변환에서 대입
+System.out.println("scroe" + score);
+System.out.println("d=;" + d);
+*/
+~~~
