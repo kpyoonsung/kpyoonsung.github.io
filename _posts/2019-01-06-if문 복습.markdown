@@ -1,0 +1,14 @@
+if문 복습
+~~~
+int math = 100;
+if (math >= 90) {
+  System.out.println("대학 갈 수 있어요");
+} else if (math >= 80) {
+  System.out.println("재수 해야 되요");
+} else {
+  System.out.println("공장 들어가야되요");
+}
+}
+
+}
+~~~
