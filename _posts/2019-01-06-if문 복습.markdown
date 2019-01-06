@@ -11,4 +11,17 @@ if (math >= 90) {
 }
 
 }
+int grade = 100;  //grade라는 변수를 60이라 정함
+if(grade>99) {   //만약 점수가 99 이상이면
+  System.out.println("A++"); // A++라 출력
+}else if(grade>=90) {  //만약 90점 이상이면
+  System.out.println("사람"); //사람이라 출력
+}else if(grade>=80) {  //만약 80점 이상이면
+  System.out.println("원숭이");  //원숭이라 출력
+}else if(grade>=70) {   //점수가 70점이상이면
+  System.out.println("공부에 소질 없음"); //공부에 소질 없음이라 출력
+}else {  //아니면
+  System.out.println("공장 ㄱㄱ"); //공장 ㄱㄱ 라 출력
+
+}
 ~~~
