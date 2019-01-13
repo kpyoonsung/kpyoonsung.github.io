@@ -1,0 +1,43 @@
+자바 개념 정리3
+
+1.조건문(if,switch)
+- 조건문은 조건식과 실행될 하나의 문장 또는 클릭{}으로 구성
+- java에서 조건문은 if문과 switch문 두가지 뿐이다.
+- if문이 주로 사용되며 , 경우의 수가 많은 경우 switch문을 사용할 것을 고려한다.
+- 모든 switch문은 if문으로 변경이 가능하지만, if문은 switch문으로 변경 할 수 없는 경우가 많다.
+
+ex)
+if(조건식){
+   문장들..
+}
+if(num==1){
+  System.out.println("SK");
+}else{
+  System.out.println("두산,넥센,nc..")
+}
+switch(num){
+  case 1:
+  System.out.println("SK");
+  break; //break는 num이 1이면 멈추가 조건문 밖으로 나가란 뜻
+  default:
+  System.out.println("두산,넥센,nc...")
+
+}
+
+2. if문
+- if문은 if,if-else,if-else-if의 세가지 형태가 있다.
+//조건식의 결과가 true일때 수행될 문장을
+}
+if(조건식)
+/조건식의 결과가 true일떄 수행될 문장을
+}else{
+  //조건식의 결과가 false일때 수행될 문장을
+}
+if(조건식){
+  //조건식1의 결과가 true일때 수행될 문장들
+}else if(조건식2){
+  //조건식2의 결과가 true일때 수행될 문장들
+}else if(조건식3){
+  //조건식3의 결과가  true일떄 수행될 문장들
+}else{
+  //모든 조건문의 결과가 false일 때 실행될 문장들
