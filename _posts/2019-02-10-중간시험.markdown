@@ -1,0 +1,43 @@
+java  중간시험
+~~~
+String name = "홍길동";
+int age = 23;
+double weight = 74.5;
+boolean likecoffee = true;
+System.out.println("이름:" + name);
+System.out.println("나이:" + age);
+System.out.println("체중:" + weight);
+System.out.println("커피를 좋아하나요?" + likecoffee);
+
+int f = 77;
+double c = (f - 32) / 1.8;
+System.out.println(c);
+
+double dollar = 1281.62664;
+double euro = 1091.70306;
+System.out.println(euro * 58 + dollar * 32 + "원");
+
+if(age>18) {
+System.out.println("성인 입니다.");
+}
+
+
+/*
+ * int i = 0; int n = 0; while (i<10) {n = n+i; i++; } System.out.println(n);
+ */
+
+for (int i = 0; i < 5; i++) {
+  System.out.println(i);
+}
+
+for (int i = 0; i < 5; i++) {
+  for (int j = 0; j < i + 1; j++) {
+    System.out.print("#");
+  }
+  System.out.println();
+}
+
+
+}
+}
+~~~
